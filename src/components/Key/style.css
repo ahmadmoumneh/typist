@@ -1,0 +1,105 @@
+.key {
+  height: 3rem;
+  border-radius: 0.3rem;
+  margin-left: 0.6rem;
+  margin-top: 0.6rem;
+  
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.key-up {
+  background: linear-gradient(45deg, black, darkgrey);
+  box-shadow: 1px 1px black;
+  text-shadow: 1px 1px black;
+  border: 2px solid transparent;
+  color: aliceblue;
+}
+
+.key-down-correct {
+  border: 2px solid darkgreen;
+  box-shadow: none;
+}
+
+.key-down-wrong {
+  border: 2px solid darkred;
+  box-shadow: none;
+}
+
+.space-wrong {
+  background-color: red;
+}
+
+.regular, .backslash {
+  min-width: 3rem;
+}
+
+.home-key {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+}
+
+.home-key-content {
+  height: 0;
+}
+
+.space {
+  min-width: 24rem;
+}
+
+.enter, .backspace, .tab, .backslash, .caps-lock, .shift-left, .shift-right {
+  display: flex;
+}
+
+.enter, .backspace, .backslash, .shift-right {
+  width: 100%;
+  margin-right: 0.6rem;
+}
+
+.tab , .caps-lock, .shift-left {
+  width: 100%;
+}
+
+.left-pinky {
+  background: linear-gradient(45deg, salmon, lightsalmon);
+}
+
+.left-ring {
+  background: linear-gradient(45deg, rgb(168, 184, 222), lightblue);
+}
+
+.left-middle {
+  background: linear-gradient(45deg, rgb(139, 206, 136), lightgreen);
+}
+
+.left-index {
+  background: linear-gradient(45deg, rgb(250, 223, 216), lightyellow);
+}
+
+.left-thumb {
+  background: linear-gradient(45deg, rgb(206, 206, 206), lightgrey);
+}
+
+.right-pinky {
+  background: linear-gradient(45deg, darkred, red);
+}
+
+.right-ring {
+  background: linear-gradient(45deg, darkblue, blue);
+}
+
+.right-middle {
+  background: linear-gradient(45deg, darkgreen, green);
+}
+
+.right-index {
+  background: linear-gradient(45deg, darkgoldenrod, yellow);
+}
+
+.right-thumb { 
+  background: linear-gradient(45deg, darkgrey, grey);
+}

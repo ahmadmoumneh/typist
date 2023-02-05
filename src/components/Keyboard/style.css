@@ -1,0 +1,65 @@
+.keyboard-wrapper {
+  display: flex;
+}
+
+.keyboard {
+  display: inline-flex;
+  flex-direction: column;
+  background: linear-gradient(45deg, darkgrey, white);
+  border-radius: 0.6rem;
+  box-shadow: inset 0 16px 16px grey;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem auto 0 auto;
+  min-width: 58rem;
+}
+
+.row-1, .row-2, .row-3, .row-4 {
+  display: flex;
+  width: 100%;
+}
+
+.row-5 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.row-5-gap-right {
+  margin-right: 0.6rem;
+}
+
+.gap {
+  width: 100%;
+}
+
+.reference {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reference-text {
+  margin-left: 0.6rem;
+  color: darkslategrey;
+  font-weight: 600;
+}
+
+.reference-content {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.reference label {
+  pointer-events: none;
+}
+
+.checkbox {
+  pointer-events: none;
+}
+
+.checkbox, .reference-text {
+  display: inline-flex;
+}

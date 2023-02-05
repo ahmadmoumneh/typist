@@ -1,0 +1,12 @@
+.celebration {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.hide:not(.celebration img[src]) {
+  display: none;
+}

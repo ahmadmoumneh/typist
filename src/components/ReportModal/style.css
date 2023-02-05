@@ -1,0 +1,72 @@
+.report-modal {
+  display: flex;
+  position: fixed;
+  transform: translateY(3rem);
+  z-index: 1;
+  justify-content: flex-end;
+  transition: all ease-out 200ms;
+}
+
+.report-modal-content {
+  display: inline-flex;
+  justify-content: flex-end;
+  justify-content: center;
+}
+
+.report-modal-background {
+  display: flex;
+  justify-content: flex-end;
+  opacity: 0.7;
+  border-bottom-left-radius: 50%;
+  background: linear-gradient(45deg, transparent 10% , black);
+  border-radius: 1rem;
+  box-shadow: inset 1rem 1rem 1rem white, inset -1rem -1rem 1rem white;
+  height: 0;
+  width: 0;
+  transition: all ease-out 300ms;
+}
+
+.report-details {
+  font-size: 1.6rem;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  height: 100%;
+  justify-content: center;
+  line-height: 2rem;
+  text-shadow: 2px 2px black, -1px -1px grey;
+  color: white;
+  z-index: 1;
+}
+
+.show-report-hover {
+  transition: all ease-in 300ms;
+  height: 7rem;
+  width: 10rem;
+}
+
+.close-report-modal {
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  margin: 2rem;
+  align-items: center;
+  background: url('../../assets/images/close.png') no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.close-header {
+  display: none;
+  justify-content: flex-end;
+  position: fixed;
+  z-index: 2;
+  right: 0;
+}
+
+.show-report {
+  height: 16rem;
+  width: 24rem;
+  transition: all ease-in 200ms;
+}
